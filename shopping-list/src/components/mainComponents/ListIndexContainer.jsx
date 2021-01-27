@@ -1,5 +1,7 @@
 import React from 'react'
 
+import PendingListIndex from './lists/PendingListIndex'
+import CrossedListIndex from './lists/CrossedListIndex'
 
 const ListIndexContainer = props => {
 

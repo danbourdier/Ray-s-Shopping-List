@@ -5,7 +5,7 @@ const ShoppingList = () => {
 
   return (
     <main>
-
+      <h1>Our List</h1>
     </main>
   )
 }

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import InputContainer from './mainComponents/InputContainer'
 import ListIndexesContainer from './mainComponents/ListIndexesContainer'
@@ -12,7 +12,9 @@ import TotalsContainer from './mainComponents/TotalsContainer'
 */
 
 const ShoppingList = () => {
+  const [ items, addItem ] = useState([])
 
+  
   return (
     <main>
       <InputContainer />

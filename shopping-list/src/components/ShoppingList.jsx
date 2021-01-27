@@ -14,11 +14,14 @@ import TotalsContainer from './mainComponents/TotalsContainer'
 const ShoppingList = () => {
   const [ items, addItem ] = useState([])
 
+  useEffect( () => {
+    console.log(items)
+  }, [ items ])
 
   return (
     <main>
       <InputContainer addItem={ addItem } />
-      <ListIndexesContainer />
+      <ListIndexesContainer items={ items } />
       <TotalsContainer />
     </main>
   )

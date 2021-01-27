@@ -1,7 +1,7 @@
 import React from 'react'
 
 import InputContainer from './mainComponents/InputContainer'
-import ListIndexContainer from './mainComponents/ListIndexContainer'
+import ListIndexesContainer from './mainComponents/ListIndexesContainer'
 import TotalsContainer from './mainComponents/TotalsContainer'
 
 /*
@@ -16,7 +16,7 @@ const ShoppingList = () => {
   return (
     <main>
       <InputContainer />
-      <ListIndexContainer />
+      <ListIndexesContainer />
       <TotalsContainer />
     </main>
   )

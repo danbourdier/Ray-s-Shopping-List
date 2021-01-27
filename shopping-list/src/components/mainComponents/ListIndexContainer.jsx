@@ -3,12 +3,12 @@ import React from 'react'
 import PendingListIndex from './lists/PendingListIndex'
 import CrossedListIndex from './lists/CrossedListIndex'
 
-const ListIndexContainer = props => {
+const ListIndexesContainer = props => {
 
 
   return (
     <section>
-      List Index Container!!!
+      List Indexes Container!!!
       <div>
         Pending List
       </div>
@@ -22,4 +22,4 @@ const ListIndexContainer = props => {
 }
 
 
-export default ListIndexContainer
+export default ListIndexesContainer

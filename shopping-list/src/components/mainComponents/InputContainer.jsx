@@ -14,7 +14,7 @@ const InputContainer = props => {
       'title': name,
       'price': cost
     }
-    createItem( currentList => [...currentList, { newItem } ] )
+    createItem( currentList => [...currentList, newItem ] )
 
   }
 

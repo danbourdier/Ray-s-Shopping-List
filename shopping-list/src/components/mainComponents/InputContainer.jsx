@@ -7,6 +7,17 @@ const InputContainer = props => {
   return (
     <section>
       Input Container!!!
+      <div>
+        <input type="text" /> {/* name of item*/}
+        <input type="number" /> { /* price of item */ }
+      </div>
+
+      <div>
+        <button>
+          To add a new entry
+        </button>
+      </div>
+      
     </section>
   )
 

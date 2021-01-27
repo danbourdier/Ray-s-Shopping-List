@@ -8,7 +8,6 @@ const ListIndexesContainer = props => {
 
   return (
     <section>
-      List Indexes Container!!!
       <div>
         <PendingListIndex />
       </div>

@@ -4,9 +4,9 @@ import '../styling/App.css';
 function App() {
 
   return (
-    <main className="App">
+    <div className="App">
       <h1>Fresh start!</h1>
-    </main>
+    </div>
   );
 }
 

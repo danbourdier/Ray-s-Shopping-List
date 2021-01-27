@@ -14,7 +14,8 @@ const TotalsContainer = props => {
 
   return (
     <section>
-      Totals Container!!!
+      <TotalPrice />
+      <TotalCount />
     </section>
   )
 

@@ -6,7 +6,7 @@ const InputContainer = props => {
 
   return (
     <section>
-      Input Container!!!
+
       <div>
         <input type="text" /> {/* name of item*/}
         <input type="number" /> { /* price of item */ }

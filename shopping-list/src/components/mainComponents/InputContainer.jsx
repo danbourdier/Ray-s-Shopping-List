@@ -7,15 +7,15 @@ const InputContainer = props => {
 
   const { addItem: createItem } = props 
 
-  // input validations to be added soon
+  // input validations to be added soon with React PropTypes
   // This grabs entered data and adds the new item to our Parent's collection.
   const handleSubmit = () => {
     const newItem = {
       'title': name,
       'price': cost
     }
-
     createItem( currentList => [...currentList, { newItem } ] )
+
   }
 
 
@@ -32,22 +32,35 @@ const InputContainer = props => {
       case 'item-price':
         updateCost( targetValue )
         break;
-
     }
+
   }
 
 
   return (
     <section>
+      
       Input Container
       <div>
-        <input type="text" name="item-name" onChange={ handleUpdate } /> {/* name of item*/}
-        <input type="number" step="0.01" min="0.01" name="item-price" onChange={ handleUpdate } /> { /* price of item */ }
+        <input 
+          type="text" 
+          name="item-name" 
+          onChange={ handleUpdate } 
+          placeholder="Enter Item Name Here..." 
+        /> 
+        <input 
+          type="number" 
+          step="0.01" 
+          min="0.01" 
+          name="item-price"  
+          onChange={ handleUpdate } 
+        /> 
       </div>
 
       <div>
-        <button onClick={ handleSubmit }>
-          To add a new entry
+        <button 
+          onClick={ handleSubmit }>
+            To add a new entry
         </button>
       </div>
       

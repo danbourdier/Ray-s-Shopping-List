@@ -10,11 +10,11 @@ const ListIndexesContainer = props => {
     <section>
       List Indexes Container!!!
       <div>
-        Pending List
+        <PendingListIndex />
       </div>
 
       <div>
-        Crossed List
+        <CrossedListIndex />
       </div>
     </section>
   )

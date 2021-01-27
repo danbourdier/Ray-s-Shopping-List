@@ -1,5 +1,7 @@
 import '../styling/App.css';
 
+import ShoppingList from './ShoppingList'
+
 function App() {
 
   return (

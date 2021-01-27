@@ -39,14 +39,14 @@ const InputContainer = props => {
 
   return (
     <section>
-      
+
       Input Container
       <div>
         <input 
           type="text" 
           name="item-name" 
           onChange={ handleUpdate } 
-          placeholder="Enter Item Name Here..." 
+          placeholder="Add Item Name Here..." 
         /> 
         <input 
           type="number" 
@@ -54,6 +54,7 @@ const InputContainer = props => {
           min="0.01" 
           name="item-price"  
           onChange={ handleUpdate } 
+          placeholder="Add Item Price Here..."
         /> 
       </div>
 

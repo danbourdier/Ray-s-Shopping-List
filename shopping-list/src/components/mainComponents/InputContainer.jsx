@@ -7,6 +7,7 @@ const InputContainer = props => {
 
   const { addItem: createItem } = props 
 
+  // input validations to be added soon
   // This grabs entered data and adds the new item to our Parent's collection.
   const handleSubmit = () => {
     const newItem = {
@@ -20,8 +21,19 @@ const InputContainer = props => {
 
   const handleUpdate = e => {
 
-    // console.log(e.target.name)
+    e.preventDefault()
+    let targetValue = e.target.value
 
+    switch (e.target.name) {
+      case 'item-name':
+        updateName( targetValue )
+        break;
+
+      case 'item-price':
+        updateCost( targetValue )
+        break;
+
+    }
   }
 
 

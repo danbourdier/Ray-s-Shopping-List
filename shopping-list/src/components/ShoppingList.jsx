@@ -1,5 +1,9 @@
 import React from 'react'
 
+import InputContainer from './mainComponents/InputContainer'
+import ListIndexContainer from './mainComponents/ListIndexContainer'
+import TotalsContainer from './mainComponents/TotalsContainer'
+
 /*
 
   Will use state that tracks items, total price, and total quantity
@@ -11,7 +15,7 @@ const ShoppingList = () => {
 
   return (
     <main>
-      <h1>Our List</h1>
+
     </main>
   )
 }

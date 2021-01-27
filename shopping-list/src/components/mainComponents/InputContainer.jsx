@@ -30,7 +30,7 @@ const InputContainer = props => {
       Input Container
       <div>
         <input type="text" name="item-name" onChange={ handleUpdate } /> {/* name of item*/}
-        <input type="number" name="item-price" onChange={ handleUpdate } /> { /* price of item */ }
+        <input type="number" step="0.01" min="0.01" name="item-price" onChange={ handleUpdate } /> { /* price of item */ }
       </div>
 
       <div>

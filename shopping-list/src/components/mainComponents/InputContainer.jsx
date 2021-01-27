@@ -17,12 +17,20 @@ const InputContainer = props => {
     createItem( currentList => [...currentList, { newItem } ] )
   }
 
+
+  const handleUpdate = e => {
+
+    // console.log(e.target.name)
+
+  }
+
+
   return (
     <section>
       Input Container
       <div>
-        <input type="text" /> {/* name of item*/}
-        <input type="number" /> { /* price of item */ }
+        <input type="text" name="item-name" onChange={ handleUpdate } /> {/* name of item*/}
+        <input type="number" name="item-price" onChange={ handleUpdate } /> { /* price of item */ }
       </div>
 
       <div>

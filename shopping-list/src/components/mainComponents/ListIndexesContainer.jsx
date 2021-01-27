@@ -5,6 +5,7 @@ import CrossedListIndex from './lists/CrossedListIndex'
 
 const ListIndexesContainer = props => {
 
+  const { items } = props
 
   return (
     <section>

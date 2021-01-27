@@ -3,6 +3,7 @@ import React from 'react'
 
 const InputContainer = props => {
 
+  const { addItem: createItem } = props 
 
   return (
     <section>

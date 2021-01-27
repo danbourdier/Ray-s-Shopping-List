@@ -14,10 +14,10 @@ import TotalsContainer from './mainComponents/TotalsContainer'
 const ShoppingList = () => {
   const [ items, addItem ] = useState([])
 
-  
+
   return (
     <main>
-      <InputContainer />
+      <InputContainer addItem={ addItem } />
       <ListIndexesContainer />
       <TotalsContainer />
     </main>

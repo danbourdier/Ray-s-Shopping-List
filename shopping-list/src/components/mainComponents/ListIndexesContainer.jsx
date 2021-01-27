@@ -10,7 +10,7 @@ const ListIndexesContainer = props => {
   return (
     <section>
       <div>
-        <PendingListIndex />
+        <PendingListIndex items={ items } />
       </div>
 
       <div>

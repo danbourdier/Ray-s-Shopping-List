@@ -15,7 +15,9 @@ const ShoppingList = () => {
 
   return (
     <main>
-
+      <InputContainer />
+      <ListIndexContainer />
+      <TotalsContainer />
     </main>
   )
 }
